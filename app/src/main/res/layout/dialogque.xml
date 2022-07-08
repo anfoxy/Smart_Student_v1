@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialodfon"
+    android:background="@drawable/d2"
+
+    android:layout_gravity="top"
+    android:scaleType="centerCrop"
+    android:layout_margin="10dp">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:padding="10dp"
+     android:layout_gravity="center">
+
+
+     <TextView
+         android:id="@+id/textv"
+
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:padding="20dp"
+         android:text="Введите вопрос:"
+         android:textColor="@color/textcolor"
+         android:textSize="24dp" />
+
+     <EditText
+         android:id="@+id/textQUE"
+         android:layout_width="match_parent"
+         android:layout_height="154dp"
+         android:background="@drawable/edittextstyle"
+         android:gravity="top|left"
+         android:textCursorDrawable="@null"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp" />
+
+     <TextView
+         android:id="@+id/texto"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:padding="20dp"
+         android:text="Введите ответ:"
+         android:textColor="@color/textcolor"
+         android:textSize="24dp" />
+
+     <EditText
+         android:id="@+id/textOTVET"
+         android:layout_width="match_parent"
+         android:gravity="top|left"
+         android:textCursorDrawable="@null"
+         android:layout_height="139dp"
+         android:background="@drawable/edittextstyle"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp" />
+
+     <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_gravity="center"
+          android:padding="10dp">
+
+         <Button
+             android:id="@+id/bOtmena"
+             android:layout_weight="1"
+             app:backgroundTint="#C8F4FF"
+             android:layout_width="match_parent"
+             android:textColor="@color/textcolor"
+             android:layout_height="wrap_content"
+             android:padding="20dp"
+             android:text="Отмена"
+             android:textSize="10dp"
+             />
+
+         <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/bSet"
+             android:layout_weight="1"
+             android:textColor="@color/textcolor"
+             app:backgroundTint="#73EBFF"
+              android:text="Сохранить"
+              android:textSize="10dp"
+              android:padding="20dp"/>
+      </LinearLayout>
+
+
+
+
+ </LinearLayout>
+
+</LinearLayout>

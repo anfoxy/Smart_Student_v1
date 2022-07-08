@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialodfon"
+    android:background="@drawable/d2"
+    android:layout_gravity="top"
+    android:scaleType="centerCrop"
+    android:layout_margin="10dp">
+
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:padding="10dp"
+     android:layout_gravity="center">
+
+
+     <TextView
+         android:id="@+id/textv"
+         android:layout_width="370dp"
+         android:layout_height="142dp"
+         android:layout_gravity="center"
+         android:gravity="center|top"
+         android:padding="20dp"
+         android:textStyle="bold"
+        android:layout_marginTop="30dp"
+         android:text="На данную дату нет плана подготовки!"
+         android:textColor="@color/textcolor"
+         android:textSize="30dp" />
+
+     <TextView
+         android:id="@+id/textv1"
+         android:layout_width="370dp"
+         android:layout_height="259dp"
+         android:layout_gravity="center"
+         android:gravity="top"
+         android:padding="20dp"
+         android:paddingStart="40dp"
+         android:paddingLeft="30dp"
+         android:paddingEnd="20dp"
+         android:paddingRight="20dp"
+         android:text="Вы можете начать тестирование, но оно не будет идти в общий план подготовки! Такое тестирование вы можете проходить бесконечно."
+         android:textColor="@color/textcolor"
+         android:textSize="26dp" />
+
+         <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/bSet"
+             android:layout_weight="1"
+             android:textColor="@color/textcolor"
+             app:backgroundTint="#73EBFF"
+              android:text="ок"
+              android:textSize="10dp"
+              android:padding="20dp"/>
+      </LinearLayout>
+
+
+
+
+
+</LinearLayout>

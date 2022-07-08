@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/log"
+        android:label="Smart Student"
+        android:roundIcon="@mipmap/log"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <receiver
+            android:name=".TimeNotification"
+            android:enabled="true">
+        </receiver>
+        <activity
+
+            android:name=".MainActivity2"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

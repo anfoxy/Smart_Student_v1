@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginBottom="50dp">
+
+
+    <TextView
+        android:id="@+id/kolvop"
+        android:layout_width="match_parent"
+        android:layout_height="759dp"
+        android:padding="20dp"
+        android:paddingBottom="20dp"
+        android:text="Данное приложение создавали студенты ННГУ им. Лобачевского факультета ИТММ, а именно: \nКажаева Анастасия, Пичугин Илья и Лукашук Диана.
+\nВы можете написать нам на почту: \na.kazhaeva7@mail.ru"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
